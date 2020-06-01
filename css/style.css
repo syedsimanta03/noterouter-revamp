@@ -2346,7 +2346,22 @@ hr.style-one {
     max-width: 150px;
     min-width: 100px;
 }
+.input {
+    width: 100% !important;
+    border: 1px solid #e5e5e5 !important;
+}
 
+textarea {
+    overflow: auto;
+    resize: vertical;
+    width: 100% !important;
+    height: 200px;
+border: 1px solid #e5e5e5 !important;
+}
+.input:active, :focus, textarea:active, :focus {
+    border: 1px solid #3976e7 !important;
+    padding-left: 10px;
+}
 /*
 * 15.inner banner styles
 */
